@@ -1,0 +1,186 @@
+/* Typography*/
+
+body {
+    font-family: "Montserrat", san-serif;
+  }
+  
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900
+  
+  .montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  :root {
+    --white: #ffffff; 
+  }
+  
+  .btn-primary {
+    background-color: #556B2F; 
+    color: var(--white);       
+    border-color: #445525; 
+    border-width: 1.5px;
+  }
+  
+  .btn-primary:hover {
+    color: #ffffff;             
+    background-color: #2E8B57;  
+    border-color: #006400;
+    border-width: 1.5px;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0.25rem #808080; 
+    background-color: #008080;       
+    color: var(--white);             
+    border-color: var(--secondary);  
+  }
+  
+  .btn-primary:active {
+    background-color: #20B2AA; 
+    color: #ffffff;            
+    border-color: #105955;     
+  }
+  
+  
+  .btn-secondary {
+    background-color: #4682B4; 
+    color: var(--white);       
+    border-color: #23415A; 
+    border-width: 1.5px;
+  }
+  
+  .btn-secondary:hover {
+    color: #ffffff;             
+    background-color: #18857F;  
+    border-color: #23415A;
+    border-width: 1.5px;
+  }
+  
+  .btn-secondary:focus {
+    box-shadow: 0 0 0.25rem #808080; 
+    background-color: #48D1CC;       
+    color: #ffffff;             
+    border-color: #006768;  
+  }
+  
+  .btn-secondary:active {
+    background-color: #CAFFFF; 
+    color: #43677D;            
+    border-color: #43677D;     
+  }
+  
+  
+  .btn-success {
+    background-color: #3CB371; 
+    color: var(--white);       
+    border-color: #1E5938; 
+    border-width: 1.5px;
+  }
+  
+  .btn-success:hover {
+    color: #ffffff;             
+    background-color: #005A00;  
+    border-color: #003200;
+    border-width: 1.5px;
+  }
+  
+  .btn-success:focus {
+    box-shadow: 0 0 0.25rem #808080; 
+    background-color: #3CB371;       
+    color: #ffffff;             
+    border-color: #2E8B57;  
+  }
+  
+  .btn-success:active {
+    background-color: #32CD32; 
+    color: #ffffff;            
+    border-color: #196619;     
+  }
+  
+  
+  .btn-danger {
+    background-color: #dc3545; 
+    color: var(--white);       
+    border-color: #6E1A22; 
+    border-width: 1.5px;
+  }
+  
+  .btn-danger:hover {
+    color: #ffffff;             
+    background-color: #DC143C;  
+    border-color: #FF4F67;
+    border-width: 1.5px;
+  }
+  
+  .btn-danger:focus {
+    box-shadow: 0 0 0.25rem #808080; 
+    background-color: #FA8072;       
+    color: #ffffff;             
+    border-color: #F85441;  
+  }
+  
+  .btn-danger:active {
+    background-color: #800000; 
+    color: #ffffff;            
+    border-color: #690000;     
+  }
+  
+  
+  .btn-warning {
+    background-color: #ffca2c; 
+    color: var(--white);       
+    border-color: #FFD700; 
+    border-width: 1.5px;
+  }
+  
+  .btn-warning:hover {
+    color: #ffffff;             
+    background-color: #FFD700;  
+    border-color: #FFE4B5;
+    border-width: 1.5px;
+  }
+  
+  .btn-warning:focus {
+    box-shadow: 0 0 0.25rem #808080; 
+    background-color: #FFE4B5;       
+    color: #000000;             
+    border-color: #FFD700;  
+  }
+  
+  .btn-warning:active {
+    background-color: #FF8C00; 
+    color: #ffffff;            
+    border-color: #FFA500;     
+  }
+  
+  
+  .btn-info {
+    background-color: #0dcaf0; 
+    color: var(--white);       
+    border-color: #B0E0E6; 
+    border-width: 1.5px;
+  }
+  
+  .btn-info:hover {
+    color: #ffffff;             
+    background-color: #7FFFD4;  
+    border-color: #66CDAA;
+    border-width: 1.5px;
+  }
+  
+  .btn-info:focus {
+    box-shadow: 0 0 0.25rem #808080; 
+    background-color: #4682B4;       
+    color: #ffffff;             
+    border-color: #B0C4DE;  
+  }
+  
+  .btn-info:active {
+    background-color: #E0FFFF; 
+    color: #000000;            
+    border-color: #AFEEEE;     
+  }
