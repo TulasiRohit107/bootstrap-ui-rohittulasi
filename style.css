@@ -198,4 +198,14 @@ body {
   .secondary-color-2 { background-color: #ffc107; } /* Yellow */
   .secondary-color-3 { background-color: #17a2b8; } /* Cyan */
   
-  
+/* Custom styles for reducing distance between cards */
+.card {
+  margin-bottom: 15px; /* Adjust the bottom margin of the card */
+}
+
+@media (min-width: 768px) { /* For medium screens and up */
+  .col-md-6 .card {
+      margin-right: 5px; /* Adjust the right margin for left card */
+      margin-left: 5px;  /* Adjust the left margin for right card */
+  }
+}
