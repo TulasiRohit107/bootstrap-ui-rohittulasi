@@ -180,3 +180,21 @@ body {
     color: #000000;            
     border-color: #AFEEEE;     
   }
+
+  .color-box {
+    height: 100px;
+    width: 100%;
+    margin: 10px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .primary-color-1 { background-color: #007bff; } /* Blue */
+  .primary-color-2 { background-color: #6c757d; } /* Gray */
+  .primary-color-3 { background-color: #28a745; } /* Green */
+  .secondary-color-1 { background-color: #dc3545; } /* Red */
+  .secondary-color-2 { background-color: #ffc107; } /* Yellow */
+  .secondary-color-3 { background-color: #17a2b8; } /* Cyan */
+  
