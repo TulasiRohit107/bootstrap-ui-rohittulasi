@@ -15,9 +15,9 @@ body {
   }
   
   .btn-primary {
-    background-color: #556B2F; 
+    background-color: #1dc1de; 
     color: var(--white);       
-    border-color: #445525; 
+    border-color: #072c32; 
     border-width: 1.5px;
   }
   
